@@ -6,7 +6,7 @@
 YouTube Video Summarizer
 
 ### Description
-This Python script allows you to extract the transcript of a YouTube video, generate a summary using the lm studion model TheBloke/Mistral-7B-Instruct-v0.2-GGUF , and provide both a text and audio summary of the video.
+This Python script allows you to extract the transcript of a YouTube video, generate a summary using the lm studion model TheBloke/Mistral-7B-Instruct-v0.2-GGUF , and provide both a text and audio summary of the video. using gradio ui for better user experience.
 
 
 lm studio  | summarization using ai model.| 
@@ -65,7 +65,7 @@ lm studio  | summarization using ai model.|
 5. Run the script using command line args:
 
     ```bash
-    python main.py <youtube-link>  -s<save>(optional.)
+    python main.py 
     ```
 
     Follow the on-screen instructions to input the YouTube video URL.
