@@ -22,4 +22,4 @@ def read_summary(file_path:str) -> None:
    with open(file_path , 'r') as file:
       text = file.read()
       print(text)
-   return 
+   return text 

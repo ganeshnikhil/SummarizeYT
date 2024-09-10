@@ -29,11 +29,12 @@ def get_transcript_string(video_id:str) -> tuple:
       return (' '.join([t['text'] for t in transcript_list]), duration)
    except Exception as e:
       return str(e)
-   
 
 
-# url = "https://www.youtube.com/watch?v=Y8Tko2YC5hA"
+
+# url = "https://www.youtube.com/watch?v=5NEML8qyD3w"
 # video_id = extract_video_id(url)
 # content , duration = get_transcript_string(video_id)
+# print(content)
 # print(content)
 # print(duration)

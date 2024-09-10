@@ -73,15 +73,15 @@ def generate_summary(text: str, max_token: int = 2000, model: str = "TheBloke/Mi
          print("CPU usage exceeded its limit.")
          break
    
-   return " ".join(output_chunks)
+   return "\n".join(output_chunks)
 
 # Convert text to speech and play it
 def text_to_speech(summary: str, filepath: str) -> None:
    myobj = gTTS(text=summary, lang='en', slow=False)
    myobj.save(filepath)
-   playsound(filepath)
+   return 
 
-def text_to_speech_pyttsx3(summary:str , filepath:str) -> None:
+def text_to_speech_pyttsx3(summary:str) -> None:
    # Initialize the pyttsx3 engine
    engine = pyttsx3.init()
 
@@ -92,7 +92,7 @@ def text_to_speech_pyttsx3(summary:str , filepath:str) -> None:
    engine.say(summary)
    # Run the speech engine
    engine.runAndWait()
-   
+   return 
    
 # Play a sound file
 def play_sound(path: str) -> None:
