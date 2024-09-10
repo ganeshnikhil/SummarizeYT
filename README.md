@@ -11,7 +11,7 @@ This Python script allows you to extract the transcript of a YouTube video, gene
 
 lm studio  | summarization using ai model.| 
 |--------------|-------------|
-<img src="sample/lm_studio.png" width = "600"/>| <img src="sample/output.png" width="600"/> |
+<img src="sample/lm_studio.png" width = "600"/>| <img src="sample/gradio_ui.png" width="600"/> |
 
 
 ### LM Studio 
