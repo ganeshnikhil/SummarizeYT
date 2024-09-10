@@ -1,7 +1,6 @@
 from psutil import cpu_percent
 from openai import OpenAI
 from gtts import gTTS 
-from playsound import playsound 
 import pyttsx3 
 # Check CPU usage 
 def cpu_use() -> int:
@@ -94,6 +93,4 @@ def text_to_speech_pyttsx3(summary:str) -> None:
    engine.runAndWait()
    return 
    
-# Play a sound file
-def play_sound(path: str) -> None:
-   playsound(path)
+
